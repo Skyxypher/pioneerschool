@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url("imagesb.jpeg");
+    background-size: cover; /* This property ensures that the image covers the entire element */
+    background-repeat: no-repeat;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px;
+    text-size-adjust: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 150px;
+}
+.phonenumber {
+    text-align: end;
+}
+.Button button{
+    margin: 10px 0; /* Add spacing between buttons */
+}
+.Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+footer {
+    text-align: end;
+
+}
+.DownButton {
+    justify-content: end;
+    display: flex;
+}
+form {
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
